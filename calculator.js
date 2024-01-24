@@ -19,7 +19,7 @@ function appendToDisplay(input) {
 
 function backSpace() {
     let currentValue = display.value;
-    display.value = currentValue.substring(0, currentValue.length - 1);
+    display.value = currentValue.slice(0, - 1);
 }
 
 function squareRoot() {
