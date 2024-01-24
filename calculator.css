@@ -1,0 +1,44 @@
+
+    .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        
+    }
+    
+    .equal{
+        grid-column: span 2;
+    }
+.calc{
+    background-color: rgb(211, 211, 211);
+    width: 350px;
+}
+    #display{
+        text-align: right;
+        font-weight: bold;
+        font-size: 1.3em;
+        background-color: lightblue;
+        /* display: none; */
+    }
+
+.butt{
+    
+        margin-bottom: 8px;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 125px;
+       }
+
+       .input{
+        font-weight: bold;
+         color: black;
+         background-color: #718287;
+         margin-top: 15px;
+         margin-bottom: -20%;
+         height: 45px;
+         font-size: 25px;
+         border: none;
+         border-radius: 5px;
+        display: none;
+        
+      }
